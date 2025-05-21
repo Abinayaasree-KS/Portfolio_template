@@ -1,25 +1,32 @@
 {
-    "name": "John Doe",
-    "title": "Full Stack Developer | React | Django | AWS",
-    "email": "john@example.com",
-    "about": "I build scalable full-stack applications with a strong focus on performance and UI/UX. I specialize in React, Django, and cloud platforms like AWS.",
-    "projects": [
+    "name": "lokhesh",
+    "phone": "999999999",
+    "email": "lokheshrj@gmail.com",
+    "location": "Erode",
+    "address": "Bhavani",
+    "education": [
         {
-            "name": "Smart Task Manager",
-            "description": "AI-powered task automation system."
-        },
-        {
-            "name": "Portfolio Builder",
-            "description": "Tool to generate professional portfolios dynamically."
+            "start": "2021",
+            "end": "2026",
+            "course": "MSc",
+            "institution": "CIT",
+            "marks": "10"
         }
     ],
-    "skills": [
-        "React",
-        "Django",
-        "REST API",
-        "PostgreSQL",
-        "AWS",
-        "Git",
-        "Docker"
-    ]
+    "role": "FSD",
+    "description": "Honest",
+    "area_of_interest": "DSA,OOPS",
+    "achievements": "1st Price",
+    "technical_skill": "C,C++",
+    "soft_skill": "Patience",
+    "projects": [
+        {
+            "title": "CARS",
+            "description": "CAR",
+            "git_link": "https://teams.microsoft.com/v2/",
+            "tech_stack": "C++,DSA"
+        }
+    ],
+    "git_link": "https://teams.microsoft.com/v2/",
+    "linkedin": "https://linkedin.com/in/lokheshrj/"
 }
