@@ -1,0 +1,25 @@
+{
+    "name": "John Doe",
+    "title": "Full Stack Developer | React | Django | AWS",
+    "email": "john@example.com",
+    "about": "I build scalable full-stack applications with a strong focus on performance and UI/UX. I specialize in React, Django, and cloud platforms like AWS.",
+    "projects": [
+        {
+            "name": "Smart Task Manager",
+            "description": "AI-powered task automation system."
+        },
+        {
+            "name": "Portfolio Builder",
+            "description": "Tool to generate professional portfolios dynamically."
+        }
+    ],
+    "skills": [
+        "React",
+        "Django",
+        "REST API",
+        "PostgreSQL",
+        "AWS",
+        "Git",
+        "Docker"
+    ]
+}

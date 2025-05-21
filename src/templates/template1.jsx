@@ -1,6 +1,9 @@
 import React from 'react';
+import userData from './user_data.json'; // path relative to Template1.jsx
 
 const Template1 = () => {
+  const { name, title, email, about, projects, skills } = userData;
+
   const styles = {
     container: {
       fontFamily: 'Segoe UI, sans-serif',
@@ -28,29 +31,30 @@ const Template1 = () => {
   return (
     <div style={styles.container}>
       <header style={styles.header}>
-        <div style={styles.name}>John Doe</div>
-        <p>Full Stack Developer | React | Django | AWS</p>
-        <p>Email: john@example.com</p>
+        <div style={styles.name}>{name}</div>
+        <p>{title}</p>
+        <p>Email: {email}</p>
       </header>
 
       <section style={styles.section}>
         <h2>About Me</h2>
-        <p>
-          I build scalable full-stack applications with a strong focus on performance and UI/UX. I specialize in React, Django, and cloud platforms like AWS.
-        </p>
+        <p>{about}</p>
       </section>
 
       <section style={styles.section}>
         <h2>Projects</h2>
         <ul style={styles.project}>
-          <li><strong>Smart Task Manager</strong> – AI-powered task automation system.</li>
-          <li><strong>Portfolio Builder</strong> – Tool to generate professional portfolios dynamically.</li>
+          {projects.map((project, index) => (
+            <li key={index}>
+              <strong>{project.name}</strong> – {project.description}
+            </li>
+          ))}
         </ul>
       </section>
 
       <section style={styles.section}>
         <h2>Skills</h2>
-        <p>React, Django, REST API, PostgreSQL, AWS, Git, Docker</p>
+        <p>{skills.join(', ')}</p>
       </section>
     </div>
   );
