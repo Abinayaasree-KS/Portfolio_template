@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Template1 from './templates/template1';
+import Template2 from './templates/template2';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<h2 style={{ textAlign: 'center', marginTop: '50px' }}>Welcome to the Portfolio Template Gallery</h2>} />
+        <Route path="/template1" element={<Template1 />} />
+        <Route path="/template2" element={<Template2 />} />
+      </Routes>
+    </Router>
   );
 }
-
-export default App;
