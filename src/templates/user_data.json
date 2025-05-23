@@ -1,25 +1,43 @@
 {
-    "name": "John Doe",
-    "title": "Full Stack Developer | React | Django | AWS",
-    "email": "john@example.com",
-    "about": "I build scalable full-stack applications with a strong focus on performance and UI/UX. I specialize in React, Django, and cloud platforms like AWS.",
-    "projects": [
+    "name": "George",
+    "phone": "7859461230",
+    "email": "george@gmail.com",
+    "location": "Australia",
+    "address": "98 Shirley Street PIMPAMA QLD 4209 AUSTRALIA",
+    "education": [
         {
-            "name": "Smart Task Manager",
-            "description": "AI-powered task automation system."
+            "type": "Higher Secondary",
+            "start": "2019",
+            "end": "2021",
+            "course": "BIO",
+            "field_of_study": "12t",
+            "institution": "Saratha",
+            "marks": "543"
         },
         {
-            "name": "Portfolio Builder",
-            "description": "Tool to generate professional portfolios dynamically."
+            "type": "UG",
+            "start": "2021",
+            "end": "2026",
+            "course": "MSc Software Systems",
+            "field_of_study": "",
+            "institution": "CIT",
+            "marks": "8.56/10"
         }
     ],
-    "skills": [
-        "React",
-        "Django",
-        "REST API",
-        "PostgreSQL",
-        "AWS",
-        "Git",
-        "Docker"
-    ]
+    "role": "React Developer",
+    "description": "Hands-on experience",
+    "area_of_interest": "C,C++,DBMS",
+    "achievements": "Melinia",
+    "technical_skill": "C,C++,Java,Python",
+    "soft_skill": "Communication, Leadership, Teamwork, Creativity",
+    "projects": [
+        {
+            "title": "Software replication",
+            "description": "Built a Disney+ replica with user login, navigation, and search features, that can handle 1,000+ concurrent users.\u2013 Deployed Firebase authentication, reducing login time to less than 1.5 seconds, and used Firebase Firestore to store 500+  hours of streamed content in an efficient way.",
+            "git_link": "",
+            "tech_stack": "HTML, CSS, ReactJS, Firebase"
+        }
+    ],
+    "git_link": "https://github.com/Abinayaasree-KS",
+    "linkedin": "https://www.linkedin.com/in/itsabiks/"
 }
